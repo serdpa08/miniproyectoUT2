@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        ul {
+            list-style-type: none;
+
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            background-color: #f1f1f1;
+        }
+
+        li a {
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+        li a.activo {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        li a:hover:not(.activo) {
+            /*Cuando situamos el ratón encima, siempre que no sea sobre un elemento con la clase activo*/
+            background-color: #555;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Barra de navegación vertical</h2>
+    <p>En este ejemplo tenemos un elemento con una clase activo que va a actuar de manera diferente al resto de
+        elementos de la lista</p>
+    <ul>
+        <li><a class="activo" href="#inicio">Inicio</a></li>
+        <li><a href="#lanzamientos">Lanzamientos</a></li>
+        <li><a href="#analisis">Análisis</a></li>
+        <li><a href="#nosotros">Acerca de</a></li>
+    </ul>
+</body>
+</html>

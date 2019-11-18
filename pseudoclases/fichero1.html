@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2>List style position</h2>
+    <ol class="a">
+        <li>Elemento1</li>
+        <li>Elemento2</li>
+        <li>Elemento3</li>
+        <li>Elemento4</li>
+        <li>Elemento5</li>
+        <li>Elemento6</li>
+        
+    </ol>
+    <ol>
+            <li>Elemento1</li>
+            <li>Elemento2</li>
+            <li>Elemento3</li>
+            <li>Elemento4</li>
+            <li>Elemento5</li>
+            <li>Elemento6</li>
+            
+        </ol>
+
+    <ul class="b">
+        <li>Elemento1</li>
+        <li>Elemento2</li>
+        <li>Elemento3</li>
+        <li>Elemento4</li>
+        <li>Elemento5</li>
+        <li>Elemento6</li>
+        
+    </ul>
+    <ul>
+            <li>Elemento1</li>
+            <li>Elemento2</li>
+            <li>Elemento3</li>
+            <li>Elemento4</li>
+            <li>Elemento5</li>
+            <li>Elemento6</li>
+            
+        </ul>
+
+
+    <h2>Combinadores</h2>
+    <h3>Selector descendente</h3>    
+
+    <div>
+        <p>Este párrafo es descendiente del div. Debería aparecer azúl </p>
+        <span><p>Este párrafo es descendiente del div?</p></span>
+        <p>Este párrafo también debería ser descendiente</p>
+
+    </div>
+
+
+    <h3>Selector hijo</h3>
+    <span>
+        <a href="#">Enlace hijo de span</a><br>
+        <a href="#">Enlace hijo de span</a><br>
+        <a href="#">Enlace hijo de span</a><br>
+        <div>
+            <a href="#">Enlace hijo de div</a>
+        </div>
+        <a href="#">Enlace hijo de span</a><br>
+        <a href="#">Enlace hijo de span</a><br>
+    </span>
+
+    <h3>Selector adyacente</h3>
+    <div>
+        <h4>Esto es un h4</h4>
+        <h5>Esto es un h5 hermano adyacente de un elemento h4.
+            deberia aparecer en color crimson
+        </h5>
+        <h5>Esto es un h5 hermano de un elemento h4, pero no
+            es un hermano adyacente por lo que no debería aparecer 
+            en color crimson
+        </h5>
+
+
+
+    </div>
+
+    <h3>Selector de hermano general</h3>
+
+    <div>
+            <h5>Esto es un h5</h5>
+            <h6>Esto es un h6 hermano adyacende de un 
+                elemento h5
+            </h6>
+            <h6>Esto es un h6 hermano general de un elemento h5</h6>
+            <h6>Esto es un h6 hermano general de un elemento h5</h6>
+
+    </div>
+
+
+    <h3>Pseudoclases</h3>
+    <div>
+        <a href="#" class="resaltado">Enlace con hover</a>
+        <p class="resaltado">Elemento p que cumple la clase resaltado</p>
+    </div>
+
+</body>
+</html>

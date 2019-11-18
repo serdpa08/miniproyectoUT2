@@ -1,0 +1,85 @@
+.estiloborde{
+    border-style: dotted;
+}
+.anchoborde{
+    border-width: 3px;
+}
+
+.colorborde{
+    border-color: red;
+}
+.dimensionesCapa{
+    width: 60%;
+    height: 500px;
+    margin: auto;
+}
+.bordeizquierdo{
+    border-left-color: royalblue;;
+    border-left-style: solid;
+    border-left-width: 4px;
+}
+.bordederecho{
+    border-right-color: saddlebrown;
+    border-right-style: dashed;
+    border-right-width: 1px;
+}
+.bordesuperior{
+    border-top-color:violet;
+    border-top-style: double;
+    border-top-width: 8px;
+}
+.bordeinferior{
+    border-bottom-color: greenyellow;
+    border-bottom-style: dotted;
+    border-bottom-width: 2px;
+}
+.bordeizquierdoresumen{
+    border-left: 4px solid blue;
+}
+.bordesuperioresumen{
+    border-right: 1px dotted yellow;
+}
+.bordederechoresumen{
+    border-top: 6px dashed pink;
+}
+.bordeinferioresumen{
+    border-bottom: 2px double red;
+}
+
+.bordesredondeados{
+    border-radius: 10px;
+    border: green solid 4px;
+}
+/*Demostración de la propiedad box-sizing*/
+.capaizquierda{
+    float: left;
+    width: 20%;
+    height: 300px;
+    border: 2px solid green;
+}
+.capacentro{
+    float: left;
+    width: 60%;
+    height: 300px;
+    border: 2px solid yellow;
+}
+
+.capaderecha{
+    float: left;
+    width: 20%;
+    height: 300px;
+    border: 2px solid blueviolet;
+}
+
+.container{
+    width: 95%;
+    margin: auto;
+}
+
+.contenedorcapassizing{
+    width: 100%;
+    margin-top: 50px;
+}
+.boxsizing{
+    box-sizing: border-box;
+}

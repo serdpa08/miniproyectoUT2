@@ -1,0 +1,16 @@
+.capafondo{
+    background-color: brown;
+    opacity: 0.3;
+    position: relative;
+    height: 300px;
+}
+
+p{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 30%;
+    
+}

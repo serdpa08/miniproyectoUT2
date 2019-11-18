@@ -1,0 +1,46 @@
+p.ocultar { 
+    display: none; 
+    background-color: yellow; 
+    padding: 20px; 
+} 
+div:hover p { 
+    display: block; 
+}
+
+/*pseudoclase firschild*/
+div p:first-child{
+    color: deeppink;
+    display: block;
+    
+}
+
+/*pseudoelemento firstline*/
+p.primeralinea::first-line{
+    font-size: 2em;
+}
+
+p.sangriafrancesa::first-line{
+    text-indent: 2em;
+}
+
+/*pseudoelemento firstletter*/
+
+p.primeraletra::first-letter{
+    font-size: 3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*pseudoelemento before*/
+
+h6::before{
+    content: "Elemento - ";
+}
+
+h5::after{
+    content: " - videojuego";
+}
+
+::selection{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: deeppink;
+}

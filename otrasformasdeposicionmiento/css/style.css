@@ -1,0 +1,88 @@
+.flotarderecha{
+    float: right;
+}
+
+.capacentrada{
+    width: 70%;
+    min-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centradoelementosinline{
+    text-align: center;
+}
+
+.contenedor{
+    width: 80%;
+    border: 1px solid black;
+    min-height: 300px;
+    position: relative;
+}
+
+.alinearderechaposition{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.alinearderechafloat{
+    float: right;
+}
+ol{
+    list-style: none;
+    margin-top: 30px;
+}
+ol li{
+    padding: 30px 0;
+    border: 1px solid seagreen;
+    display: inline;
+    
+}
+
+
+.centradoverticalhorizontal{
+    min-height: 200px;
+    line-height: 200px;
+    border: 1px solid salmon;
+    text-align: center;
+}
+
+.centradoverticalhorizontal p{
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contenedortransform{
+    height: 200px;
+    position: relative;
+    border: 1px solid violet;
+}
+.contenedortransform p{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.opacidad{
+    opacity: 0.3;
+    filter: alpha(opacity=30); /*opacity para internet explorer 8*/
+    width: 100%;
+}
+
+.contenedorimagen{
+    position: relative;
+}
+.texto{
+   width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    text-align: center;
+    
+    
+}

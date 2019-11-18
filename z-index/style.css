@@ -1,0 +1,23 @@
+.relativo{
+    position: relative;
+}
+.capa{
+    min-height: 300px;
+    border: 1px solid black;
+}
+
+.z1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background: blueviolet;
+}
+
+.z2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    background: brown;
+}

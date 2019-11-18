@@ -1,0 +1,19 @@
+h3, p{
+    border: 1px solid black;
+}
+
+.superior{
+    margin-top: 50px;
+}
+
+.inferior{
+    margin-bottom: 50px;
+}
+
+.izquierda{
+    margin-left: 50px;
+}
+
+.derecha{
+    margin-right: 200px;
+}

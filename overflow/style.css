@@ -1,0 +1,25 @@
+.over{
+    height: 300px;
+    border: 1px solid black;
+    overflow: auto;
+}
+
+.over1{
+    height: 300px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.over2{
+    height: 300px;
+    border: 1px solid black;
+    overflow: scroll;
+}
+
+.over3{
+    height: 300px;
+    border: 1px solid black;
+    overflow: visible;
+}
+
+

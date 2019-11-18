@@ -1,0 +1,37 @@
+/*pseudoclases*/
+
+/*pseudoclases*/
+
+a:link{
+    color: greenyellow;
+    text-decoration: none;
+}
+a:visited{
+    color: palevioletred;
+    
+}
+
+a:active{
+    color: aquamarine;
+    background: paleturquoise;
+}
+a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+ol{
+    background-color: #ff9999;
+    padding: 20px;
+}
+ol li{
+    background-color: #ffe5e5;
+    padding: 5px;
+    margin-left: 35px;
+
+}
+ul{
+    list-style-image: url(../img/iconolista.jpg);
+    margin-left: 20%;
+    l
+
+}
